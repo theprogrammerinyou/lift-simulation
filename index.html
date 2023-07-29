@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lift simulation app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+
+  <body>
+    <h1>Welcome to Lift Simulation App</h1>
+    <section id="home-page">
+      <form id="form">
+        <main>
+          <div>
+            <label for="inputFloor">Number of floors : </label>
+            <input type="number" id="inputFloor" placeholder="floors" />
+          </div>
+          <div>
+            <label for="inputLift">Number of Lifts : </label>
+            <input type="number" id="inputLift" placeholder="Lifts" />
+          </div>
+        </main>
+      </form>
+      <button id="generate-btn">Generate</button>
+    </section>
+
+    <section class="lift-container hidden">
+      <main id="floor-container">
+        <span><button class="btn btn-up" id="btn-up-first">Up</button></span>
+        <section class="lift first-lift">
+          <div class="left-door"></div>
+          <div class="right-door"></div>
+        </section>
+        <section class="horizontal-flex">
+          <hr />
+          <p>Floor 0</p>
+        </section>
+      </main>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
