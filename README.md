@@ -17,6 +17,8 @@ Create a web app where you can simulate lift mechanics for a client
       - Lift having doors open in 2.5s, then closing in another 2.5s
       - Lift moving at 2s per floor
       - Lift stopping at every floor where it was called
-      - Mobile friendly design 
+      - Mobile friendly design
 
+![Enter number of lifts and floors](FloorAndLifts.png)
+![Move lifts Up and Down](MoveLiftsUpAndDown.png)
 
